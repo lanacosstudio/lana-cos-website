@@ -17,7 +17,7 @@
                     </div>
                     <hr />
 
-                    <h1>Väriäys (Ilman Leikkausta)</h1>
+                    <h1>Väriäys (ilman leikkausta)</h1>
                     <div :key="index" v-for="index in nocutColorPrices" class="price">
                         <h3>{{ index.nocutType }} ~ {{ index.nocutPrice }}€</h3>
                     </div>
